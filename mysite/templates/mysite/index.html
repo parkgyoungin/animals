@@ -24,7 +24,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="">애니멀즈</a>
+      <a class="navbar-brand" href="{% url 'home' %}">애니멀즈</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -42,7 +42,7 @@
             <a class="nav-link" href="#">잠시 돌보기</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="member/">회원가입</a>
+            <a class="nav-link" href="{% url 'join' %}">회원가입</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">로그인</a>
