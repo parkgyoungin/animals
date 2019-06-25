@@ -23,3 +23,6 @@ def tryJoin(request):
 
     return HttpResponse("oo")
 # Create your views here.
+
+def idCheck(request):
+    return render(request, "member/idCheck.html")

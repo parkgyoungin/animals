@@ -17,7 +17,6 @@
 
   <!-- Custom styles for this template -->
   <link href="{% static 'mysite/css/shop-homepage.css' %}" rel="stylesheet">
-
 </head>
 
 <body>
@@ -90,15 +89,16 @@
                     {{form.as_p}}
                     <h2>회원가입</h2>
                     <div class="form-group" role="div">
-                        <label for="name" class="col-sm-3 control-label">이름*</label>
-                        <div class="col-sm-9">
-                            <input type="text" id="name"  class="form-control" name="name" required="required">
-                        </div>
-                    </div>
-                    <div class="form-group" role="div">
                         <label for="user_id" class="col-sm-3 control-label">아이디*</label>
                         <div class="col-sm-9">
                             <input type="text" id="user_id" class="form-control" name= "user_id" required="required">
+                            <input type="button" value="중복확인" onclick="openIdChk()">
+                        </div>
+                    </div>
+                    <div class="form-group" role="div">
+                        <label for="name" class="col-sm-3 control-label">이름*</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="name"  class="form-control" name="name" required="required">
                         </div>
                     </div>
                     <div class="form-group" role="div">
@@ -157,6 +157,13 @@
                         <button type="submit" class="btn btn-primary btn-block">가입하기</button>
                 </form> <!-- /form -->
     </div> <!-- ./container -->
+    <script>
+        function openIdChk(){
+            var X = (window.screen.width / 2) - (400 / 2);
+            var Y = (window.screen.height / 2) - (300 / 2);
+            window.open("{% url 'idCheck' %}", "", "width=400, height=300, left="+X+", top="+Y+", location=1");
+        }
+    </script>
 
 </body>
 

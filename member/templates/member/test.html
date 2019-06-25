@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+      <script>
+        function openIdChk(){
+            window.open("{% url 'home' %}", "", "width=400, height=300, left=100, location=1");
+        }
+    </script>
+  </head>
+  <body>
+  <input type="button" value="test" onclick="openIdChk()">
+
+  </body>
+</html>
