@@ -1,10 +1,46 @@
 <!DOCTYPE html>
+{% load static%}
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{% static 'mysite/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
     <title>중복확인</title>
 </head>
 <body>
+    <style type="text/css">
+        #center{
+
+            width: 350px;
+            height: 300px;
+            margin: 0 auto;
+
+        }
+        #user_id{
+            width: 80%;
+            height: 50px;
+            margin-top: 75px;
+            margin-left: 10%;
+
+        }
+        #btn_check{
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        p{
+            width: 80%;
+            margin-left: 10%;
+        }
+    </style>
+    <form id="center" method="post" action="{% url 'idCheck' %}">
+        {%csrf_token%}
+        {{form.as_p}}
+        <input id="user_id" type="text" placeholder="ID" name="user_id">
+        <p>{{result}}</p>
+        <button id="btn_check" type="submit" >중복확인</button>
+    </form>
+
+
 
 </body>
 </html>
