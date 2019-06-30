@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="94ce974f-319e-46fc-90fc-6052760ada91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member/templates/member/idCheck.html" beforeDir="false" afterPath="$PROJECT_DIR$/member/templates/member/idCheck.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member/templates/member/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/member/templates/member/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/templates/member/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/templates/member/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/member/templates/member/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/member/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/member/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,29 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysite/templates/mysite/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="244" lean-forward="true" selection-start-line="244" selection-end-line="244" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member/templates/member/idCheck.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="133">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/static/mysite/vendor/bootstrap/css/bootstrap.css">
+        <entry file="file://$PROJECT_DIR$/member/templates/member/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="557" column="21" lean-forward="true" selection-start-line="557" selection-start-column="21" selection-end-line="557" selection-end-column="21" />
+            <state relative-caret-position="266">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -45,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="57">
               <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
@@ -69,8 +64,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="152">
+              <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,11 +76,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="209">
+              <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/member/templates/member/completeJoin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/member/templates/member/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-209">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -99,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member/templates/member/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="88" selection-end-column="33" />
+            <state relative-caret-position="1306">
+              <caret line="159" column="31" lean-forward="true" selection-start-line="159" selection-start-column="31" selection-end-line="159" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -141,7 +157,6 @@
         <option value="$PROJECT_DIR$/membership/urls.py" />
         <option value="$PROJECT_DIR$/member/templates/member/index.html.py" />
         <option value="D:/django 프로젝트/html download/templated-visualize/index.html" />
-        <option value="$PROJECT_DIR$/member/templates/member/index2.html" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="D:/django 프로젝트/html/html download/startbootstrap-shop-homepage-gh-pages/startbootstrap-shop-homepage-gh-pages/index.html" />
         <option value="$PROJECT_DIR$/mysite/views.py" />
@@ -152,17 +167,20 @@
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/member/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/member/templates/member/test.html" />
-        <option value="$PROJECT_DIR$/member/urls.py" />
-        <option value="$PROJECT_DIR$/member/templates/member/index.html" />
         <option value="$PROJECT_DIR$/member/templates/member/idCheck.html" />
+        <option value="$PROJECT_DIR$/member/templates/member/index2.html" />
+        <option value="$PROJECT_DIR$/member/templates/member/index.html" />
+        <option value="$PROJECT_DIR$/member/urls.py" />
         <option value="$PROJECT_DIR$/member/views.py" />
+        <option value="$PROJECT_DIR$/member/templates/member/completeJoin.html" />
+        <option value="$PROJECT_DIR$/member/templates/member/login.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="373" />
-    <option name="y" value="36" />
-    <option name="width" value="1112" />
+    <option name="x" value="459" />
+    <option name="y" value="79" />
+    <option name="width" value="811" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -171,6 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,19 +200,6 @@
             <path>
               <item name="animals" type="b2602c69:ProjectViewProjectNode" />
               <item name="animals" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="animals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="animals" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="animals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="animals" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="member" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,24 +247,10 @@
               <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="animals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="animals" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="animals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="animals" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,7 +305,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22306718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26996198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -324,7 +316,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49936628" weight="0.2991914" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49936628" visible="true" weight="0.2991914" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006337" side_tool="true" weight="0.30820996" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -368,13 +360,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/member/static/member/images/logo.png" />
-    <entry file="file://$PROJECT_DIR$/member/templates/member/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/django 프로젝트/html/html download/startbootstrap-shop-homepage-gh-pages/startbootstrap-shop-homepage-gh-pages/index.html" />
     <entry file="file://$PROJECT_DIR$/mysite/static/mysite/css/shop-homepage.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -433,16 +418,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/static/mysite/vendor/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10583">
+          <caret line="557" column="21" selection-start-line="557" selection-start-column="21" selection-end-line="557" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/templates/member/index2.html" />
+    <entry file="file://$PROJECT_DIR$/mysite/templates/mysite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5054">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/member/templates/member/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="58" />
+        <state relative-caret-position="266">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="57">
           <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
@@ -462,15 +462,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/member/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="152">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/static/mysite/vendor/bootstrap/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/member/templates/member/idCheck.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="557" column="21" lean-forward="true" selection-start-line="557" selection-start-column="21" selection-end-line="557" selection-end-column="21" />
+        <state relative-caret-position="133">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/templates/member/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1306">
+          <caret line="159" column="31" lean-forward="true" selection-start-line="159" selection-start-column="31" selection-end-line="159" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -481,34 +501,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member/views.py">
+    <entry file="file://$PROJECT_DIR$/member/templates/member/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-209">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member/templates/member/idCheck.html">
+    <entry file="file://$PROJECT_DIR$/member/templates/member/completeJoin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member/templates/member/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="88" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/mysite/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="244" lean-forward="true" selection-start-line="244" selection-end-line="244" />
+        <state relative-caret-position="342">
+          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{% static 'mysite/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+    <style type="text/css">
+        body{  }
+        #box1{ margin: 150px; text-align: center;}
+
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="{% url 'home' %}">애니멀즈</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">분양 하는글
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">분양 받는글</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">잠시 돌보기</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="{% url 'join' %}">회원가입</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">로그인</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">마이페이지</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div id="box1">
+        <h1>환영합니다!</h1> <br>
+        <pre>
+{{name}}님, 회원가입을 축하합니다.
+애니멀즈의 새로운 아이디는 {{user_id}} 입니다.
+        </pre>
+        <button type="button" onclick="location= '{% url 'login'%}' ">로그인하기</button>
+    </div>
+
+</body>
+</html>

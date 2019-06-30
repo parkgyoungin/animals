@@ -9,37 +9,32 @@
 </head>
 <body>
     <style type="text/css">
-        #center{
-
-            width: 350px;
-            height: 300px;
-            margin: 0 auto;
-
-        }
-        #user_id{
-            width: 80%;
-            height: 50px;
-            margin-top: 75px;
-            margin-left: 10%;
-
-        }
-        #btn_check{
-            margin-top: 50px;
-            margin-left: 50px;
-        }
-        p{
-            width: 80%;
-            margin-left: 10%;
-        }
+        body{ margin: 30px; }
+        form{ text-align: center; }
+        p{ margin-top: 20px; }
+        #btn_use{ margin-top: 70px; }
     </style>
-    <form id="center" method="post" action="{% url 'idCheck' %}">
+    <form  method="post" action="{% url 'idCheck' %}">
         {%csrf_token%}
         {{form.as_p}}
-        <input id="user_id" type="text" placeholder="ID" name="user_id">
-        <p>{{result}}</p>
-        <button id="btn_check" type="submit" >중복확인</button>
-    </form>
 
+        <input id="user_id" type="text" placeholder="ID" name="user_id">
+        <button id="btn_check" type="submit" >중복확인</button>
+        <p id="result" >{{result}}</p>
+        <button id="btn_use" type="button" onclick="use()">사용하기</button>
+    </form>
+    <script>
+        function use(){
+            if( {{check}}== 1 ){
+                opener.user_id = "{{user_id}}";
+                opener.document.getElementById("user_id").value = "{{user_id}}";
+                window.close();
+            }
+            else{
+                document.getElementById("result").innerHTML = "다른 아이디를 입력해주세요"
+            }
+        }
+    </script>
 
 
 </body>
